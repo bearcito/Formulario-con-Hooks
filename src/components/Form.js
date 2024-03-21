@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = props => {
     const { inputs, handleInputChange, handleFormSubmit } = props;
-
+    //pasar a map
     return (
         <form onSubmit={handleFormSubmit}>
             <div className="form-group">
